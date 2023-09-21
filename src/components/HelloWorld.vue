@@ -1,5 +1,29 @@
 <template>
-  <div class="hello">
+  
+  <div class="wrapper">
+
+    <div class="card">
+
+      <title>This card has a button and a image</title>
+    
+      <p>The image is a meme and says "I know HTML How to meet ladies"</p>
+    
+      <img id="HTML img" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/i-know-html-how-to-meet-ladies-funny-web-designer-print-noirty-designs.jpg" alt="HTML is fun"/>
+
+      <a href="http://hax.psu.edu" target="http://hax.psu.edu">
+        <button class="button"> Details </button> 
+      </a>  
+
+    </div>
+
+      <button class="dup-btn"> Duplicate </button>
+      <button class="change-name-btn"> Change Name </button>
+      <button class="change-color-btn"> Change Color </button>
+      <button class="del-btn"> Delete </button>
+
+  </div>
+        
+  <!-- <div class="hello">
     <h1>{{ msg }}</h1>
   </div>
   <div class="card">
@@ -14,7 +38,7 @@
   <button id="btn">Duplicator</button>
   <button id="colorBtn">BGColorChanger</button>
   <button id="Headingbtn">HeadingChanger</button>
-  <button id="dltbtn">DeleteCard</button>
+  <button id="dltbtn">DeleteCard</button> -->
 </template>
 
 <script>

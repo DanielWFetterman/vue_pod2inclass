@@ -1,4 +1,6 @@
 /* Base styles for the card */
+
+/* 
 .card {
   max-width: 400px;
   margin: 0 auto;
@@ -19,6 +21,38 @@
 .card-content {
   flex: 1;
 }
+*/ 
+
+.card { 
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  width: 450px;
+}
+.card img {
+  margin: 25px;
+  width: 200px;
+  height: auto;
+}
+
+.wrapper button {
+  align-items: flex-start;
+  font-size: 24px;
+  color: rgb(14, 29, 247);
+  background-color: white;
+  margin: 24px;
+}
+.wrapper button:hover {
+  color: white;
+  background-color: black;
+}
+
+.card p {
+  font-size: 30px;
+  margin: 25px;
+}
+
 
 /* Style for the Title label */
 h2 {
@@ -43,6 +77,8 @@ a.details-button {
     text-decoration: none;
     border-radius: 4px;
 }
+
+ 
 
 /* Media query for displaying the button on small tablets (800px) and larger phones (500px) */
 @media screen and (max-width: 800px) {
